@@ -5,9 +5,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ARCHISCULPTURE_v200';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2303@1.0/ARCHISCULPTURE_v200.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Resgister.jsx + Login.jsx ---------------------
+
 .formContainer{
-    font-family: 'Pretendard-Regular';
-    background-color: #a7bcff;
+    background-image: linear-gradient(to right, #e3f4ed, #B9E4D1);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -15,23 +23,29 @@
 
     .formWrapper{
         background-color: white;
-        padding: 20px 60px;
+        padding: 25px 60px;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: center;
+        font-family: 'Pretendard-Regular';
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.138);
 
         .logo{
-            color: #5d5b8d;
+            color: #0EB07E;
             font-weight: bold;
             font-size: 24px;
+            margin-bottom: 10px;
+            font-family: 'ARCHISCULPTURE_v200';
         }
 
-        .title{
-            color: #5d5b8d;
-            font-size: 12px;
-        }
+        // .title{
+        //     color: black;
+        //     font-size: 12px;
+        //     letter-spacing: 0.5px;
+        //     font-family: 'Pretendard-Regular';
+        // }
 
         form{
             display: flex;
@@ -42,39 +56,96 @@
                 padding: 15px;
                 border: none;
                 width: 250px;
-                border-bottom: 1px solid #a7bcff;
+                border-bottom: 1px solid #0EB07E;
+                letter-spacing: 0.5px;
+                font-family: 'Pretendard-Regular';
                 &::placeholder{
-                    color: rgb(175, 175, 175);
+                    color: #0EB07E;
+                    letter-spacing: 0.5px;
+                    font-family: 'Pretendard-Regular';
                 }
             }
 
             button{
-                background-color: #7b96ec;
+                background-color: #0EB07E;
                 color: white;
                 padding: 10px;
-                font-weight: bold;
+                font-weight: 600;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
+                letter-spacing: 1px;
+                font-family: 'Pretendard-Regular';
             }
 
             label{
                display: flex;
                align-items: center; 
                gap: 10px;
-               color: #8da4f1;
+               color: #0EB07E;
                font-size: 12px;
                cursor: pointer;
 
                img{
-                width: 32px;
+                width: 20px;
                }
             }
         }
         p{
-            color: #5d5b8d;
+            color: black;
             font-size: 12px;
             margin-top: 10px;
+            font-family: 'Pretendard-Regular';
+        }
+    }
+}
+
+// Home.jsx ------------------------------------
+.home{
+    background-image: linear-gradient(to right, #e3f4ed, #B9E4D1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 65%;
+        height: 80%;
+        display: flex;
+        overflow: hidden;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.138);
+
+        .sidebar{
+            flex: 1;
+            border-right: 1px solid rgb(180, 180, 180);
+            background-color: white;
+
+            .navbar{
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid rgb(180, 180, 180);
+                height: 50px;
+                padding: 5px 20px;
+                justify-content: space-between;
+                color: black;
+
+                .logo{
+                    font-weight: 600;
+                    color: #0EB07E;
+                    font-family: 'ARCHISCULPTURE_v200';
+                }
+
+                .user{
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .chat{
+            flex: 2;
         }
     }
 }

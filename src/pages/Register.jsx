@@ -6,11 +6,10 @@ export const Register = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">Private Message</span>
-        <span className="title">회원가입</span>
         <form>
-          <input type="text" placeholder="display name" />
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
+          <input type="text" placeholder="이름" />
+          <input type="email" placeholder="이메일" />
+          <input type="password" placeholder="비밀번호" />
           <input style={{display:"none"}} type="file" id="file" />
           <label htmlFor="file">
             <img src={Add} alt="" />
@@ -24,3 +23,4 @@ export const Register = () => {
   )
 }
 
+export default Register
