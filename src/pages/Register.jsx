@@ -4,9 +4,12 @@ import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth, db, storage } from '../firebase';
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
+import { useNavigate, Link } from 'react-router-dom';
 
 export const Register = () => {
   const [err, setErr] = useState(false);
+  const navigate = useNavigate();
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     const displayName = e.target[0].value;
@@ -38,6 +41,9 @@ export const Register = () => {
               email,
               photoURL: downloadURL,
             });
+
+            await setDoc(doc(db, "userChats", res.user.uid), {});
+            navigate("/");
           });
         }
       );
@@ -60,9 +66,9 @@ export const Register = () => {
             <span>프로필사진 추가</span>
           </label>
           <button>회원가입</button>
-          {err && <span>Something went wrong</span>}
+          {err && <span className='err'>다시 입력해주세요</span>}
         </form>
-        <p>이미 회원이신가요? 로그인</p>
+        <p>이미 회원이신가요? <Link to="/login">로그인</Link></p>
       </div>
     </div>
   )
