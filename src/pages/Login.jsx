@@ -30,7 +30,7 @@ export const Login = () => {
           <button>로그인</button>
           {err && <span className='err'>다시 입력해주세요</span>}
         </form>
-        <p>아직 회원이 아니신가요? <Link to="/register">회원가입</Link></p>
+        <p>아직 회원이 아니신가요? <Link className='connect' to="/register">회원가입</Link></p>
       </div>
     </div>
   )

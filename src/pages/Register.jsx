@@ -68,7 +68,7 @@ export const Register = () => {
           <button>회원가입</button>
           {err && <span className='err'>다시 입력해주세요</span>}
         </form>
-        <p>이미 회원이신가요? <Link to="/login">로그인</Link></p>
+        <p>이미 회원이신가요? <Link className='connect' to="/login">로그인</Link></p>
       </div>
     </div>
   )
