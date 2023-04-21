@@ -23,7 +23,7 @@ const Message = ({message}) => {
             : data.user.photoURL
           }
           alt="" />
-        <span>방금 전</span>
+        {/* <span>보낸시간</span> */}
       </div>
       <div className='messageContent'>
         <p>{message.text}</p>
