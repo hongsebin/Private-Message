@@ -19,6 +19,9 @@
 ### 🛠️ 개발 환경
 - <div>Frontend </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=red"/>
+<img src="https://img.shields.io/badge/CSS-black?style=flat&logo=css3&logoColor=blue"/>
+<img src="https://img.shields.io/badge/JavaScript-black?style=flat&logo=JavaScript&logoColor=yellow"/>
 <img src="https://img.shields.io/badge/React-black?style=flat&logo=react&logoColor=blue"/>
 
 - <div>Backend & Database </div>
@@ -27,11 +30,11 @@
 
 - <div>Editor </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/VS Code-blue?style=flat&logo=visual studio&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS Code-blue?style=flat&logo=visual studio&logoColor=darkblue"/>
 
 - <div>VCS</div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/github-black?style=flat&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/github-purple?style=flat&logo=github&logoColor=black"/>
 <br><br>
 
 ### 📽️ 시연 영상
