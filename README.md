@@ -20,7 +20,7 @@
 - <div>Frontend </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=red"/>
-<img src="https://img.shields.io/badge/CSS-black?style=flat&logo=css3&logoColor=blue"/>
+<img src="https://img.shields.io/badge/SCSS-black?style=flat&logo=sass&logoColor=pink"/>
 <img src="https://img.shields.io/badge/JavaScript-black?style=flat&logo=JavaScript&logoColor=yellow"/>
 <img src="https://img.shields.io/badge/React-black?style=flat&logo=react&logoColor=blue"/>
 
