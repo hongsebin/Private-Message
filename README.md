@@ -37,6 +37,13 @@
 <img src="https://img.shields.io/badge/github-purple?style=flat&logo=github&logoColor=black"/>
 <br><br>
 
+### 🔎 구현 동작
+![Register](/src/img/register.jpg)
+![Login](/src/img/login.jpg)
+![Main](/src/img/main.jpg)
+
+<br>
+
 ### 📽️ 시연 영상
 - https://www.youtube.com/watch?v=QXQpmLASUrE
 
